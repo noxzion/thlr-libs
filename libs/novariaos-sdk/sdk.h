@@ -1,7 +1,7 @@
 #ifndef KERNEL_API
 #define KERNEL_API
 
-#include <vfs.h>
+#include <novariaos-sdk/vfs.h>
 
 struct kernel_api {
     void     (*kprint)(const char *str, int color);
